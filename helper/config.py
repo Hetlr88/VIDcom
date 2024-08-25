@@ -15,12 +15,12 @@
 from . import *
 
 try:
-    APP_ID = config("APP_ID", cast=int)
-    API_HASH = config("API_HASH")
-    BOT_TOKEN = config("BOT_TOKEN")
-    OWNER = config("OWNER_ID", default=1322549723, cast=int)
-    LOG = config("LOG_CHANNEL", cast=int)
-    GroupName=config("GroupName",default="")
+    APP_ID = config("APP_ID",29452145, cast=int)
+    API_HASH = config("API_HASH","5a2784e571fe5043852d32396a34a13b")
+    BOT_TOKEN = config("BOT_TOKEN","7445547849:AAHfX4_8TQ57cg71Q_l9ABoa6RfgfPWHgsE")
+    OWNER = config("OWNER_ID", default=6169288210, cast=int)
+    LOG = config("LOG_CHANNEL",-1002243837012, cast=int)
+    GroupName=config("GroupName",default="JXSS")
     GroupUrl=config("GroupUrl")
     GroupButton = config("GroupButton",default="الانظمام")
     GroupMessage=config("GroupMessage",default="قناة البوت")
